@@ -57,6 +57,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # blog_index_asides:
 # post_asides:
 # page_asides:
+navigation:
+ - text: Home
+   url: /colettetaylor.com
 
 # ----------------------- #
 #   3rd Party Settings    #
@@ -91,7 +94,7 @@ delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: anatomyofaprogrammer
-disqus_show_comment_count: false
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
