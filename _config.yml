@@ -59,7 +59,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # page_asides:
 navigation:
  - text: Home
-   url: /colettetaylor.com
+   url: /index.html
 
 # ----------------------- #
 #   3rd Party Settings    #
