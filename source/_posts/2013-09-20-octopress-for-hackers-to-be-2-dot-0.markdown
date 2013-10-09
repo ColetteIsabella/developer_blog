@@ -3,21 +3,18 @@ layout: post
 title: "Octopress For Hackers-To-Be 2.0"
 date: 2013-09-20 16:35
 comments: true
-categories:
+categories: Jekyll, Octopress,
 ---
-
-
 <header>
-  <h1>Let's Create an Octopress Blog! Part 2</h1>
+<h1>Let's Create an Octopress Blog! Part 2</h1>
 </header>
-<h4>* $ means that you are entering a command into console.</h4>
-
 <body>
+<h4>* $ means that you are entering a command into console.</h4>
   <p>As we left off last time, we had set up our DNS (Let's check that real quick):</p>
   <p> $ dig yourwebsite.com +nostats +nocomments +nocmd</p>
   <p> this should return your "global options", and you should see listed your CNAME set up, if you did that, and yourwebsite.com  A  204.232.175.78</p>
- <h3>If this is not what you see,</h3>
- <p>or there are more numbers than the 204 Record, you'll need to go back to you DNS server, and </p>
+<h3>If this is not what you see,</h3>
+  <p>or there are more numbers than the 204 Record, you'll need to go back to you DNS server, and </p>
   <p>1. Make sure it has the right number, and it's entered correctly.</p>
   <p>2. Make sure it's not trying to do anything else, like host your site in its own system, you don't need nameservers, and if it has a space where you can tell it you are using GitHub Pages, that is ideal.</p>
   <p>Excellent, all set? Good. Now, before we start getting too crazy, let's see if we can get the site running on our server. Let's meet our first new best friend: </p>
@@ -50,10 +47,20 @@ categories:
   <p>Here, you'll find the-date-in-long-form-your-title and in there you'll find some markdown already filled out for you.</p>
   <p> If you use disqus, and set that up in _config.yml, you can set comments to true. Then write out some html, give it a header, and maybe some nice references to your new sass, then you know the drill, git git git, rake, rake, check!</p>
   <p> Next, I'll go over adding a page, particularly an about page, as that is my current battle. I will leave you with this, though, do not mess with any files which you don't understand, if you're messing with the public folder, you will not be a happy lion. Stick with your friends until you get a little comfier in Octopress. Good luck! Comment with any questions! I love to help, and I just *might* have an answer!</p>
+  <script type="text/javascript">
+    var disqus_shortname = 'anatomyofaprogrammer';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
 </body>
+<footer>
 <script type="text/javascript">
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
         var disqus_shortname = 'anatomyofaprogrammer';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -63,5 +70,7 @@ categories:
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</footer>
