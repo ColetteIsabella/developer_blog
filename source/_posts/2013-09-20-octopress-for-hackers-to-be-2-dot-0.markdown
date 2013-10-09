@@ -50,5 +50,19 @@ categories:
   <p>Here, you'll find the-date-in-long-form-your-title and in there you'll find some markdown already filled out for you.</p>
   <p> If you use disqus, and set that up in _config.yml, you can set comments to true. Then write out some html, give it a header, and maybe some nice references to your new sass, then you know the drill, git git git, rake, rake, check!</p>
   <p> Next, I'll go over adding a page, particularly an about page, as that is my current battle. I will leave you with this, though, do not mess with any files which you don't understand, if you're messing with the public folder, you will not be a happy lion. Stick with your friends until you get a little comfier in Octopress. Good luck! Comment with any questions! I love to help, and I just *might* have an answer!</p>
+<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'anatomyofaprogrammer'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 </body>

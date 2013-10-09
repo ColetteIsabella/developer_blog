@@ -87,5 +87,21 @@ categories:
 <p> $rake deploy    And you're running! Tomorrow, we'll write our first blog post, check our themes, bug check, wonder why it doesn't work, wonder why it works, then show the world our Hacker skillz!</p>
 <p>For now, you need to wait for your DNS to catch up, and I need to feed my impatient cats, who will never understand why I use their warm bed to click all day.</p>
 <p>Until tomorrow!</p>
+<script type="text/javascript">
+
+<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'anatomyofaprogrammer'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
