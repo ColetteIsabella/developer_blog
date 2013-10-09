@@ -36,21 +36,9 @@ categories: hackathons, social anxiety, advice
 <p>So those are the initial suggestions that I have for anyone wanting to overcome the social-fear part of a hackathon. There's a whole other level of doubting your abilities, and worrying that you won't find a project you want to devote yourself to, but that is a whole other issue. What I found amazing, was that once you're there, you can find a place in the crowd. And ultimately, the question is: do you want to do this?</p>
 <p>Then do it. You will be glad you did.</p>
 <p>But you may have to sleep it off for a few days</p>
-<script type="text/javascript">
-    var disqus_shortname = 'anatomyofaprogrammer';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>
-</body>
-<footer>
-<script type="text/javascript">
-        var disqus_shortname = 'anatomyofaprogrammer';
+<div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'anatomyofaprogrammer';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
@@ -61,9 +49,7 @@ categories: hackathons, social anxiety, advice
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-
-
-</footer>
+</body>
 
 
 

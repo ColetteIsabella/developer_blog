@@ -88,20 +88,9 @@ categories: Jekyll, blogging, Octopress
 <p> $rake deploy    And you're running! Tomorrow, we'll write our first blog post, check our themes, bug check, wonder why it doesn't work, wonder why it works, then show the world our Hacker skillz!</p>
 <p>For now, you need to wait for your DNS to catch up, and I need to feed my impatient cats, who will never understand why I use their warm bed to click all day.</p>
 <p>Until tomorrow!</p>
-<script type="text/javascript">
-    var disqus_shortname = 'anatomyofaprogrammer';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-    </script>
-
 </body>
 <footer>
+<div id="disqus_thread"></div>
 <script type="text/javascript">
         var disqus_shortname = 'anatomyofaprogrammer';
 
@@ -114,6 +103,4 @@ categories: Jekyll, blogging, Octopress
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-</footer>
-
-
+  </footer>
