@@ -2,7 +2,7 @@
 layout: post
 title: "Octopress for Hackers-To-Be 1.0"
 date: 2013-09-20 16:34
-comments: true
+comments: false
 categories: Jekyll, blogging, Octopress
 ---
 
@@ -24,16 +24,16 @@ So let's get statrted.
 Following the directions from the page, it recommends a clone. This is what I used, and it was quite clean, but forking their repository is also a valid method, here are the differences:
 
 If you choose to clone, you will cd into your Dev directory (you should have a designated Dev directory to reduce confusion.)Copy this in to that directory:
-  git clone git://github.com/imathis/octopress.git octopress>
++ git clone git://github.com/imathis/octopress.git octopress>
 Then you need to switch into the octopress directory using:
-$ cd octopress
++ $ cd octopress
 The documentation recomends you check your Ruby version here, just know that if you are not in 1.9.3, you might not get the results you want.
 Next, you'll type
-$ gem install bundler
++ $ gem install bundler
 If you are using rbenv, you'll want to run
-$ rbenv rehash
++ $ rbenv rehash
 Then $ bundle install
-$ rake install
++ $ rake install
 This is where it gets fun, and this is where we need to stay calm. There are a few ways this can go: it could show up brilliantly with the deafult interface saying- Your Octopress Blog, Or, it could be sparce and look a lot like html with no CSS structure.
 Either way, let's start with our new favorite file: \_config.yml. It looks like this(with examples):
 + url: your_website.com
@@ -49,8 +49,10 @@ Now some decisions come up, I chose<a href=http://octopress.org/docs/deploying/g
 
 There are other particulars to watch out for with Heroku and Rsync, but since I didn't use them, I'll go through gh-pages.
 First off, you want to create a Github Repository, if you cloned in, it should be set up, but launch GitHub and check to make sure your initial commit was successful.
+
 Then, you use the rake configuration to get your pages set up:
-$ rake setup_github_pages
++ $ rake setup_github_pages
+
 Easy peasy, right? It asks for your Repo url, and then should do some other things...Well you'll want to check those went through before you go all gung ho on this.
 Make sure that your new origin was created by typing:
 $ git remote -v You should see:
@@ -59,17 +61,18 @@ $ git remote -v You should see:
 + origin git://github.com/your/repo.git (fetch)
 + origin git://github.com/your/repo.git (pull)
 If you only see the first 2, DON'T PANIC, you just need:
-$ git remote add origin git@github.com:username/username.github.com.git
-  Now you need to create a source directory in your repo to work from **Wait! What happened to Github Pages?!?** Believe me, this will go a lot smoother if you set all this up now.
-  $ git branch
++ $ git remote add origin git@github.com:username/username.github.com.git
+
+Now you need to create a source directory in your repo to work from **Wait! What happened to Github Pages?!?** Believe me, this will go a lot smoother if you set all this up now.
++ $ git branch
 Should say: master
-$ git branch -m master source
-$ git branch
++ $ git branch -m master source
++ $ git branch
 Should say: source. Hooray! This set up your _deploy branch, which will become near and dear.
 If you have a custom domain you want to run your site on, it's an awkward, but doable set of steps.
 First, register your Domain with whoever. Seriously, whoever.
 
-####Note, I just heard an interview with Richard Ayoade, where he talked about cheese, apologies, it's just on my mind.
+#### Note, I just heard an interview with Richard Ayoade, where he talked about cheese, apologies, it's just on my mind.
 
 Once you have whitecheeseforever.org, you'll want to go into the DNS settings on your chosen page. DNS means Domain Name System, so even though it sounds like a scary techy term, it's quite asinine.
 Here's what you want to change:
@@ -78,29 +81,18 @@ whitecheeseforever.org  - A - 204.232.175.78
 If you want it to redirect from www.whitecheeseforever.org, you will also want:
 www.whitecheeseforever.org -CNAME- username.github.io<
 This will take a while to kick in, so don't get too excited, instead, go back to your console and type:
-$ echo "whitecheeseforever.org" >> source/CNAME
++ $ echo "whitecheeseforever.org" >> source/CNAME
 
 ####Okay, yeah, the cheese thing got a little old on me too...
 
 Hooray! There's now a new file called CNAME in your source folder. Go make sure there is only ONE domain name in there. Just the one with no www. Go ahead, I'll wait. Just one? Then onwards to greatness!
 Now back to console, and hit:
-$ rake generate
-$ rake deploy
++ $ rake generate
++ $ rake deploy
 And you're running! Tomorrow, we'll write our first blog post, check our themes, bug check, wonder why it doesn't work, wonder why it works, then show the world our Hacker skillz!
 For now, you need to wait for your DNS to catch up, and I need to feed my impatient cats, who will never understand why I use their warm bed to click all day.
 Until tomorrow!
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-        var disqus_shortname = 'anatomyofaprogrammer';
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
