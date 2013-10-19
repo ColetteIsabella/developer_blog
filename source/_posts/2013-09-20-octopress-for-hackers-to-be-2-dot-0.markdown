@@ -3,7 +3,7 @@ layout: post
 title: "Octopress For Hackers-To-Be 2.0"
 date: 2013-09-20 16:35
 comments: false
-categories: Jekyll, Octopress,
+categories: Jekyll Octopress,
 ---
 
 # Let's Create an Octopress Blog! Part 2 #

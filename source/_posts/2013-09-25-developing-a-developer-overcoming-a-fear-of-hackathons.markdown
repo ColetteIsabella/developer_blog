@@ -3,7 +3,7 @@ layout: post
 title: "Developing a Developer: Overcoming a fear of Hackathons"
 date: 2013-09-25 11:20
 comments: false
-categories: hackathons, social_anxiety, advice
+categories: hackathons social_anxiety advice
 ---
 
 ## Seattle StartUp Weekend, a Survival Guide for Social Anxiety Sufferers

@@ -3,7 +3,7 @@ layout: post
 title: "Decisions, decisions"
 date: 2013-10-17 19:48
 comments: true
-categories: learning, Hack_Your_Brain, Projects
+categories: learning HYB Projects
 ---
 ## Finding Direction, to get Direction
 
