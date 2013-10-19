@@ -6,10 +6,10 @@ comments: false
 categories: Jekyll, blogging, Octopress
 ---
 
-#Let's Create an Octopress Blog!
+# Let's Create an Octopress Blog!
 
 
-####* $ means that you are entering a command into console.
+#### * $ means that you are entering a command into console.
 
 Two months ago, I had no idea what a console was, what my husband or my father were talking about, when they told me about their work, commands and structures and Agile and... My dad's a Java Engineer, and my husband is a UX Designer.
 I started playing with <a href= http://www.codecademy.com/>Code Academy</a> Then I realized, this is how I think! Even better, I found <a href= https://www.codefellows.org/>Code Fellows</a>, in Seattle. I took their bootcamp on Ruby on Rails, and boom, life => changed.
