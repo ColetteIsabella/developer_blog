@@ -267,9 +267,10 @@ a:hover {
 }
 
 .img-circle {
-  -webkit-border-radius: 500px;
-     -moz-border-radius: 500px;
-          border-radius: 500px;
+  position: center;
+  -webkit-border-radius: 400px;
+  -moz-border-radius: 400px;
+  border-radius: 400px;
 }
 
 .row {

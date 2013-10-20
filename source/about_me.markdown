@@ -8,7 +8,7 @@ footer: true
 ---
 # The Programmer, as She Evolves
 
-<img class="img-circle" src="/source/images/FCBD2.jpg">
+<img class="img-circle" src="/source/images/cinnamon-stick.png">
 
 Colette is a scientist and an artist. She got a degree in Molecular Biology at the University of Colorado in Boulder, but not until after she'd become a master beekeeper, a barista, a world traveller, an activist and a painter. She found a great deal of inspiration in science, and so she pursued the degree with vigor.
 
