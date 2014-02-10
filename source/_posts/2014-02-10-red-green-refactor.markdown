@@ -31,7 +31,7 @@ First off, before I share the code, the initial code from a group called "CornDo
 
 The thing is, when I am down, I spend an unreasonable, sometimes unhealthy amount of time worrying about the safety of my cats. It sometimes kept my husband and I from even going out for dinner. So thus came in, the FaceTime Cat Cam. I set up my computer or tablet angled at the cats' automatic food dispenser, and at 1 pm and 9 pm, I can call my computer and see them. They can also hear me, so I can call them to the screen and they can put nose-prints all over my screen.
 
-<p><img src="facetimecatcam.png"></p>
+<p><img src="/images/facetimecatcam.png"></p>
 
 If you have an Apple Computer, you have an Application called AppleScript Editor. This code is not something you want to use if you are paranoid about people seeing into your house, but you can set it up with a phone number no one but you knows. It's also possible to turn the script on and off so that you only have it on when you want it.
 
