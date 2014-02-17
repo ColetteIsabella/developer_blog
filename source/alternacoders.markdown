@@ -10,8 +10,8 @@ footer: true
 
 <p class="centered">
 <img class="img-circle" src="/images/beachballofdeath.png">
-<strong> include.all</strong>
 </p>
+<p><strong> include.all</strong></p>
 
 We are so lucky to live in a city like Seattle where there are so many places to find like-minded individuals or groups, but I found a group missing from the bunch.
 We need more women in programming, that has been well established, but we also need a reminder that we need creative people in coding. I think there are a lot of people out there, like me, who couldn't imagine themselves fitting into the world of IT, because there is something of an expected image of a computer person.
